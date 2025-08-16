@@ -4,8 +4,8 @@
   "description": "Backend API for FreelancerPro - Financial Management System",
   "main": "dist/server.js",
   "scripts": {
-    "start": "PORT=5001 node dist/server.js",
-    "dev": "PORT=5001 nodemon src/server.ts",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
     "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watch",
